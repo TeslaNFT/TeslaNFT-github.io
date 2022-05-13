@@ -1,0 +1,204 @@
+<head>
+  <meta http-equiv="Content-Type" content="text/html"; charset="iso-8859-1">
+  <meta name="keywords" content="CS2REP">
+  <meta name="author" content="CHARONWARE - www.casestudio.com">
+  <title>CASE Studio 2 - HTML Report</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="classic_yellow.css" title="report">
+</head>
+
+<body bgcolor="#FFFFFF" leftmargin="20" topmargin="10" marginwidth="20" marginheight="10">
+<div align="center"><center>
+<table border="0" width="770" class="caption1"><tr><td>Entity list</td></tr></table><br><br> 
+<table class="tabformat" border="0" cellpadding="2" cellspacing="1" width="770">
+ 
+  <tr>
+    <td class="tabhead" > Entity name    </td>    <td class="tabhead" > Entity type    </td>    <td class="tabhead" > Primary key    </td>    <td class="tabhead" > # attributes    </td>  </tr>
+  <tr>
+    <td class="tabdata" > APPACTION    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > RULEID, ACTIONSEQ, USERGROUPID    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > APPRULE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > RULEID, RULESEQ, USERGROUPID    </td>    <td class="tabdata" > 13    </td>  </tr>
+  <tr>
+    <td class="tabdata" > ATTR_CODE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > CODECAT, CODEVALUE, USERGROUPID    </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > ATTRCODEXREF    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > ATTRID, USERGROUPID    </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > ATTRDBXREF    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > ATTRID    </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > ATTRIBUTE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > ATTRID, USERGROUPID    </td>    <td class="tabdata" > 11    </td>  </tr>
+  <tr>
+    <td class="tabdata" > ATTRIBUTE_VISIBILITY    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > ATTRID, USERGROUPID    </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BI_FILE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > PREFIX, FILESEQNUM    </td>    <td class="tabdata" > 15    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BI_FIREDEPT    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > PREFIX, FILESEQNUM, RECSEQNUM    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BI_IMPORT    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > PREFIX    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BI_IMPORT_FILELIST    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > PREFIX, FILENAME    </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BI_INCIDENT    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > PREFIX, FILESEQNUM, RECSEQNUM    </td>    <td class="tabdata" > 11    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BP_BATCH_JOB    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > BATCH_JOB_ID    </td>    <td class="tabdata" > 14    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BP_EXPORT_FIRE_DEPTS_TASK    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 4    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BP_EXPORT_INCIDENTS_TASK    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 17    </td>  </tr>
+  <tr>
+    <td class="tabdata" > BP_INCIDENT_SET    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CAS_CIVILIAN    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, CASUALTYNUM    </td>    <td class="tabdata" > 25    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CAS_EMS    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, CASUALTYNUM    </td>    <td class="tabdata" > 17    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CAS_EQUIP_FAIL    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, CASUALTYNUM, EQUIP_SEQ    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CAS_FIRESERVICE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, CASUALTYNUM    </td>    <td class="tabdata" > 29    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CHANGE_LOG    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > LOGID    </td>    <td class="tabdata" > 14    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CHANGE_LOG_CHANGE_TYPE    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > CHANGETYPE    </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CHANGE_LOG_ENTITY_TYPE    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > ENTITYTYPE    </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CHANGE_LOG_GROUP    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CHANGE_LOG_INCIDENT    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CHEMICAL    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > CHEMICALID, USERGROUPID    </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > CODECATEGORY    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > CODECAT    </td>    <td class="tabdata" > 6    </td>  </tr>
+  <tr>
+    <td class="tabdata" > EQUIP_INVOLVED    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, EQ_RECTYPE    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > EVENTMESSAGE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > EVENTNUM, USERGROUPID    </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FD_APPARATUS    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > FDID, FDIDSTATE, FD_APSEQ    </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FD_APPARATUS_1025    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FD_HEADER    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > FDID, FDIDSTATE    </td>    <td class="tabdata" > 25    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FD_HEADER_1025    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 25    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FD_PERSONNEL    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > FDID, FDIDSTATE, FD_PERSSEQ    </td>    <td class="tabdata" > 12    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FD_PERSONNEL_1025    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 12    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FD_SOFTWARE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > FDID, FDID_STATE, VENDID, SOFTID    </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIELDPERMS    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > FDID, FDIDSTATE, ATTRID    </td>    <td class="tabdata" > 6    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIRE_ALTADDR    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIRE_BEHAVIOR    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 6    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIRE_LATLONG    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 3    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIRE_PROPERTYMGMT    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 13    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIRE_STRUCTURE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 29    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIRE_WEATHER    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIRE_WILDLAND    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 20    </td>  </tr>
+  <tr>
+    <td class="tabdata" > FIX_41    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 1    </td>  </tr>
+  <tr>
+    <td class="tabdata" > GROUP_FLATFILE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > USERGROUPID    </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > GROUP_VERSIONS    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 3    </td>  </tr>
+  <tr>
+    <td class="tabdata" > GROUPS    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > USERGROUPID    </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_ADDRESS    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 13    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_APPARATUS    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, AP_SEQ    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_ARSON    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_ARSONAGENCYXREF    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 16    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_ARSONJUVENILE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, AR_SUBJECT    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_AUTHORITY    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, AUTHTYPE    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_BASIC    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 35    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_BASIC41    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_FIRE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 17    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_FIRECAUSE    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 4    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_FIRECAUSE_RECODE    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 4    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_HAZMAT    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 17    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_HMCHEMICAL    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, HM_NUM    </td>    <td class="tabdata" > 14    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_MULTIPLECODE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, ATTRID, ATTRMAININDEX, ATTRSUBINDEX, ATTRSEQ    </td>    <td class="tabdata" > 6    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_MUTUALAID    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 4    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_OWNERPERSON    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, ADDRTYPE, ADDRSEQ    </td>    <td class="tabdata" > 20    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_PERSONNEL    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, AP_SEQ, PR_SEQ    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_SPECIALSTUDY    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, SS_SEQ, SPECIALSTUDYID    </td>    <td class="tabdata" > 4    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_TEMPLATEDETAIL    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > TEMPLATEID, USERGROUPID, TEMPLATESEQ    </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > IN_TEMPLATEHEADER    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > TEMPLATEID, USERGROUPID    </td>    <td class="tabdata" > 3    </td>  </tr>
+  <tr>
+    <td class="tabdata" > INC_ACTION    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 1    </td>  </tr>
+  <tr>
+    <td class="tabdata" > INCIDENTKEY    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > INCIDENTID    </td>    <td class="tabdata" > 18    </td>  </tr>
+  <tr>
+    <td class="tabdata" > INSTANCE    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 14    </td>  </tr>
+  <tr>
+    <td class="tabdata" > INSTANCE_DETAIL    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 6    </td>  </tr>
+  <tr>
+    <td class="tabdata" > LOOKUP_NEXT_PK    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > TABLENAME, USERGROUPID    </td>    <td class="tabdata" > 4    </td>  </tr>
+  <tr>
+    <td class="tabdata" > MOBILE_PROP    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > INCIDENTID, MP_RECTYPE    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > NFIC_REGION    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > REGIONSTATE    </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > NFIRSTRANSACTION    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > TRANSID, USERGROUPID    </td>    <td class="tabdata" > 10    </td>  </tr>
+  <tr>
+    <td class="tabdata" > NFIRSUSER    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > USERNAME, USERSTATE    </td>    <td class="tabdata" > 15    </td>  </tr>
+  <tr>
+    <td class="tabdata" > RESULT_STAGE    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 4    </td>  </tr>
+  <tr>
+    <td class="tabdata" > RESULTS    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > SPECIAL_STUDY    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > SS_ID, USERGROUPID    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > SS_CODE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > SS_ID, SS_CODE, USERGROUPID    </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > STAGINGAREA    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > INCIDENTID, RPTID    </td>    <td class="tabdata" > 2    </td>  </tr>
+  <tr>
+    <td class="tabdata" > TEMPLATE    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > TEMPLATE_DETAIL    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" >     </td>    <td class="tabdata" > 7    </td>  </tr>
+  <tr>
+    <td class="tabdata" > TRANSCONVERT    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > TRANSID, USERGROUPID    </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > TRANSDELIMATTR    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > TRANSID, USERGROUPID, TRANSSEQ, SUBTRANSEQ    </td>    <td class="tabdata" > 8    </td>  </tr>
+  <tr>
+    <td class="tabdata" > TRANSFIXEDATTR    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > TRANSID, USERGROUPID, TRANSSEQ    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > USERCOMPRQMTXREF    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > ATTRID, USERGROUPID    </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > USERCOMPSECXREF    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > ATTRID, USERGROUPID    </td>    <td class="tabdata" > 5    </td>  </tr>
+  <tr>
+    <td class="tabdata" > VENDOR    </td>    <td class="tabdata" > independent    </td>    <td class="tabdata" > VENDID    </td>    <td class="tabdata" > 15    </td>  </tr>
+  <tr>
+    <td class="tabdata" > VENDOR_SOFTWARE    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > VENDID, SOFTID    </td>    <td class="tabdata" > 9    </td>  </tr>
+  <tr>
+    <td class="tabdata" > WINDOW    </td>    <td class="tabdata" > dependent    </td>    <td class="tabdata" > WINDOWID, USERGROUPID    </td>    <td class="tabdata" > 5   </td>  </tr>
+</table>
+
+</center></div><br><br> 
+</body><br><br> 
+
